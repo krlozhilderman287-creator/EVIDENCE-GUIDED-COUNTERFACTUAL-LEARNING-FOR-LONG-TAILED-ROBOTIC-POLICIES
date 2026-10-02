@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hf_token
+.env
+.libero/
+libero_raw/
+dataset_all/
+tensorflow_datasets/
+pretrained/
+runs/
+results/
+experiments/ecl/latest_run.txt
+*.egg-info/
+environment-freeze.txt

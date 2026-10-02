@@ -1,0 +1,14 @@
+# xArm6 real-world demonstrations
+
+This gallery contains 24 global-camera videos for six tasks. Every task directory contains `minivla/` and `pi0.5/`; each model directory contains `apa/` and `ecl/`, with `demo.mp4` at the deepest level.
+
+| ID | Task | MiniVLA APA | MiniVLA ECL | π₀.₅ APA | π₀.₅ ECL |
+| --- | --- | --- | --- | --- | --- |
+| 0 | Pick up the block and place it in the box | [video](task_00_Pick_up_the_block_and_place_it_in_the_box/minivla/apa/demo.mp4) | [video](task_00_Pick_up_the_block_and_place_it_in_the_box/minivla/ecl/demo.mp4) | [video](task_00_Pick_up_the_block_and_place_it_in_the_box/pi0.5/apa/demo.mp4) | [video](task_00_Pick_up_the_block_and_place_it_in_the_box/pi0.5/ecl/demo.mp4) |
+| 1 | Stack the red block on top of the blue block | [video](task_01_Stack_the_red_block_on_top_of_the_blue_block/minivla/apa/demo.mp4) | [video](task_01_Stack_the_red_block_on_top_of_the_blue_block/minivla/ecl/demo.mp4) | [video](task_01_Stack_the_red_block_on_top_of_the_blue_block/pi0.5/apa/demo.mp4) | [video](task_01_Stack_the_red_block_on_top_of_the_blue_block/pi0.5/ecl/demo.mp4) |
+| 2 | Stack the two blocks on the left on top of the block on the right | [video](task_02_Stack_the_two_blocks_on_the_left_on_top_of_the_block_on_the_right/minivla/apa/demo.mp4) | [video](task_02_Stack_the_two_blocks_on_the_left_on_top_of_the_block_on_the_right/minivla/ecl/demo.mp4) | [video](task_02_Stack_the_two_blocks_on_the_left_on_top_of_the_block_on_the_right/pi0.5/apa/demo.mp4) | [video](task_02_Stack_the_two_blocks_on_the_left_on_top_of_the_block_on_the_right/pi0.5/ecl/demo.mp4) |
+| 3 | Insert the three-prong plug into the socket | [video](task_03_Insert_the_three-prong_plug_into_the_socket/minivla/apa/demo.mp4) | [video](task_03_Insert_the_three-prong_plug_into_the_socket/minivla/ecl/demo.mp4) | [video](task_03_Insert_the_three-prong_plug_into_the_socket/pi0.5/apa/demo.mp4) | [video](task_03_Insert_the_three-prong_plug_into_the_socket/pi0.5/ecl/demo.mp4) |
+| 4 | Push the box to the designated location | [video](task_04_Push_the_box_to_the_designated_location/minivla/apa/demo.mp4) | [video](task_04_Push_the_box_to_the_designated_location/minivla/ecl/demo.mp4) | [video](task_04_Push_the_box_to_the_designated_location/pi0.5/apa/demo.mp4) | [video](task_04_Push_the_box_to_the_designated_location/pi0.5/ecl/demo.mp4) |
+| 5 | Pick up the water bottle and place it in the box | [video](task_05_Pick_up_the_water_bottle_and_place_it_in_the_box/minivla/apa/demo.mp4) | [video](task_05_Pick_up_the_water_bottle_and_place_it_in_the_box/minivla/ecl/demo.mp4) | [video](task_05_Pick_up_the_water_bottle_and_place_it_in_the_box/pi0.5/apa/demo.mp4) | [video](task_05_Pick_up_the_water_bottle_and_place_it_in_the_box/pi0.5/ecl/demo.mp4) |
+
+[Media manifest](media_manifest.json) | [Complete manifest](../../demo_manifest.csv)

@@ -1,0 +1,101 @@
+diff --git a/scripts/train_pytorch.py b/scripts/train_pytorch.py
+index c7ddd2b..78cad18 100644
+--- a/scripts/train_pytorch.py
++++ b/scripts/train_pytorch.py
+@@ -42,6 +42,7 @@ import wandb
+ 
+ import openpi.models.pi0_config
+ import openpi.models_pytorch.pi0_pytorch
++import openpi.models_pytorch.pi0_ecl_pytorch
+ import openpi.shared.normalize as _normalize
+ import openpi.training.config as _config
+ import openpi.training.data_loader as _data
+@@ -406,7 +407,17 @@ def train_loop(config: _config.TrainConfig):
+         # Update dtype to match pytorch_training_precision
+         object.__setattr__(model_cfg, "dtype", config.pytorch_training_precision)
+ 
+-    model = openpi.models_pytorch.pi0_pytorch.PI0Pytorch(model_cfg).to(device)
++    if config.ecl_enabled:
++        model = openpi.models_pytorch.pi0_ecl_pytorch.PI05ECLPytorch(
++            model_cfg,
++            contrast_lambda=config.ecl_lambda,
++            mu=config.ecl_mu,
++            top_ratio=config.ecl_top_ratio,
++            selector_last_n_layers=config.ecl_selector_last_n_layers,
++            warmup_steps=config.ecl_warmup_steps,
++        ).to(device)
++    else:
++        model = openpi.models_pytorch.pi0_pytorch.PI0Pytorch(model_cfg).to(device)
+ 
+     if hasattr(model, "gradient_checkpointing_enable"):
+         enable_gradient_checkpointing = True
+@@ -526,7 +537,11 @@ def train_loop(config: _config.TrainConfig):
+                 pg["lr"] = lr_schedule(global_step)
+ 
+             # Forward pass
+-            losses = model(observation, actions)
++            losses = (
++                model(observation, actions, global_step=global_step)
++                if config.ecl_enabled
++                else model(observation, actions)
++            )
+             # Ensure losses is a tensor and handle different return types
+             if isinstance(losses, list | tuple):
+                 losses = torch.stack(losses)
+diff --git a/src/openpi/training/config.py b/src/openpi/training/config.py
+index 4ca47e1..0d2c05b 100644
+--- a/src/openpi/training/config.py
++++ b/src/openpi/training/config.py
+@@ -510,6 +510,14 @@ class TrainConfig:
+     # Number of train steps (batches) to run.
+     num_train_steps: int = 30_000
+ 
++    # Optional Evidence-Guided Counterfactual Learning objective (PyTorch pi0.5 only).
++    ecl_enabled: bool = False
++    ecl_lambda: float = 0.3
++    ecl_mu: float = 0.3
++    ecl_top_ratio: float = 0.10
++    ecl_selector_last_n_layers: int = 4
++    ecl_warmup_steps: int = 0
++
+     # How often (in steps) to log training metrics.
+     log_interval: int = 100
+     # How often (in steps) to save checkpoints.
+@@ -761,6 +769,37 @@ _CONFIGS = [
+         pytorch_weight_path="/path/to/your/pytorch_weight_path",
+         num_train_steps=30_000,
+     ),
++    TrainConfig(
++        name="pi05_libero_ecl",
++        model=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=10,
++            discrete_state_input=False,
++            pytorch_compile_mode=None,
++        ),
++        data=LeRobotLiberoDataConfig(
++            repo_id="ecl/libero_core_lt",
++            base_config=DataConfig(prompt_from_task=True),
++            extra_delta_transform=False,
++        ),
++        batch_size=256,
++        lr_schedule=_optimizer.CosineDecaySchedule(
++            warmup_steps=10_000,
++            peak_lr=5e-5,
++            decay_steps=1_000_000,
++            decay_lr=5e-5,
++        ),
++        optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
++        ema_decay=0.999,
++        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
++        num_train_steps=30_000,
++        ecl_enabled=True,
++        ecl_lambda=0.3,
++        ecl_mu=0.3,
++        ecl_top_ratio=0.10,
++        ecl_selector_last_n_layers=4,
++        ecl_warmup_steps=0,
++    ),
+     #
+     # Fine-tuning Aloha configs.
+     #

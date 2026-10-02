@@ -1,0 +1,17 @@
+{
+  "strategy": "ddp",
+  "per_device_batch_size": 20,
+  "global_batch_size": 20,
+  "epochs": 36,
+  "save_interval": 10000,
+  "seed": 7,
+  "lambda_value": 0.3,
+  "mu": 0.3,
+  "warmup_epochs": 2,
+  "top_k": 0,
+  "top_ratio": 0.1,
+  "last_n_layers": 4,
+  "mask_mode": "mean",
+  "contrast_scope": "all",
+  "stop_gradient": false
+}

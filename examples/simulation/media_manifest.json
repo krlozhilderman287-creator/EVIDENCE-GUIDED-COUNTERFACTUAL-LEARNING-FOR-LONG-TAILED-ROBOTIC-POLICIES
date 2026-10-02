@@ -1,0 +1,1202 @@
+[
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "3a1902ed39ab15a222d5e6b9599f724ef00759c17b91d6ddeca0ce969bb35b43",
+        "bytes":  1780570,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  311
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "27b283408e9ea2c191f62398b52023b114ed8c4d6d8d0675cf158a87567a9cf7",
+        "bytes":  700853,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  119
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "b3d01faa816e881541251a7cbec907a4e4698b6b58634568ae92ff4d5d92bf4e",
+        "bytes":  637981,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  112
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "6b3dd84e775ca64dee7cf9914a71bf2dafafdf6b931344dc77596b095220ebac",
+        "bytes":  2261966,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  98
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "80bfadf8f0307021b737298d8eca65f3fd82902ff5aeb6c0a9971e4ee8067e0b",
+        "bytes":  2283982,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "baac743038abeaa8bbd3d78662324622eb3de76ff102858f1534732e6548ccc3",
+        "bytes":  2311518,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "0cc137442a2c94d9fa4f4abac7e1d37f2dba6101089c58c7ef963aed190978f4",
+        "bytes":  1988721,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_00_Pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  0,
+        "instruction":  "Pick up the black bowl next to the plate and place it on the plate",
+        "sha256":  "af959ed3922ad7303296144582ed2158a5119fadab633f1331c3c74f8789b07f",
+        "bytes":  2643776,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  104
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "74d5ddf9b0e55b2f787a7bc7a1b44e6949aea308aa0d172e0fdf63171bdda5b2",
+        "bytes":  738382,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  114
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "bd4358cad6af54cfb8bc95c4b6d0ebd2b35b75e62fd6e9ef38414a7aecb443bc",
+        "bytes":  1627275,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "c0851cd86266c2b2e852ea44ae581ee174c434c009c71d1b53d204a45318fab3",
+        "bytes":  1817662,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "df90ea01943dba01f80316ff2c9281482223f825c9cc1711759dfd3f36d8da48",
+        "bytes":  3634816,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  129
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "381c1fb4259c2cebeab565a76797069a5f9a04f118b7130e30d3df75b239acab",
+        "bytes":  1630771,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "62d4e89028b7c4f8c564cf25ef4f2c4121072c0f3b7c30e35e3bb4a5ae1aa75d",
+        "bytes":  10113060,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "d31a283a84f97e76fe1d3784bd0c07f724c1cc61cd0586acba38b86284e1aedd",
+        "bytes":  2302679,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_01_Pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  1,
+        "instruction":  "Pick up the black bowl next to the cookie box and place it on the plate",
+        "sha256":  "9c7343df96cfd53960a51c784d870d56ac853aa2af6908ee458cf31a8af172c8",
+        "bytes":  5904619,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  205
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "c7f6a99c4f36ab3ce78ee23488cdc8f7b9d834d8341f49f5d68eea2ad428489a",
+        "bytes":  658937,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  109
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "f96c20cf5be41d76f9a8278c6a72848fe43f399a15bf6213d83ece8005a4a7ea",
+        "bytes":  1625521,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "bb0cbb8ff8d605dec32ef3468adb7063f5607bd8abfab5b59870b703f761b249",
+        "bytes":  579716,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  95
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "94942fa26089bfe71fb37d5b435df9b0dfabb8ff268ec033f168c7746fe2f08a",
+        "bytes":  1923682,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  93
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "a8fc102028808d640b6f297e0dadda896e6439f6bf3d66f386b86e92f6077bff",
+        "bytes":  628081,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  104
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "f98a3d0b5bb558ad7ed5104da247a34afc7d8dee82c552a5926b301ef4e59fd0",
+        "bytes":  1704028,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "d1f3e142467514114da4f4149e8585c097193761d48499b6d35038455f570bda",
+        "bytes":  9763852,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_02_Pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  2,
+        "instruction":  "Pick up the black bowl on the cookie box and place it on the plate",
+        "sha256":  "87588dd3a7ffc569f48debc0f4873434024c17fd6aa36cc0f4f771d7cd7d1ca9",
+        "bytes":  1866215,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  89
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "fa3f1560aa153c021da5463e8c9816794c441ec66a1e459bca2130241ed0474e",
+        "bytes":  1325336,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "4780514a27517bd80920d4174b7966bcc49eebd4c1b3027ca285bedd115a0904",
+        "bytes":  1584273,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "ed67ab7bad5b418a1622a1c8c30049947f3286866509d6a5445b3b437c2882d5",
+        "bytes":  1511848,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "9b595bfc3112dce7606efb4dd1b598375a136edc40cfc6d2bcf94d81a899d659",
+        "bytes":  6280372,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  167
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "8d778c429c5300d863b6fb3835ebf14982491eaca3ee144cf01caabc1a0fd5ff",
+        "bytes":  647114,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  139
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "6ae6335cd46c0a5c9e64ae3b37313153566bf846601c27f2af7ec13ea403745e",
+        "bytes":  1420127,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "a81f3a89e28d2b181ec93cf97a7b1aaf19be47fc32c2473ede4674727d3f949c",
+        "bytes":  13601424,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_03_Pick_up_the_ketchup_and_place_it_in_the_basket/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  3,
+        "instruction":  "Pick up the ketchup and place it in the basket",
+        "sha256":  "f7ddfbea42843dc92881eafc1078fccdf1148a7214cac2803f595235510b07c7",
+        "bytes":  6196053,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  165
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "6e5835da5d2d47ca101239af97d91e8874457ee5a178a00beebfc099866b9052",
+        "bytes":  783177,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  178
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "fa1b187088d1bcdcb303908acb049063c37f584078a9dab1b59a88662072d74b",
+        "bytes":  1436912,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "9757ae5f456ec48f3f3d557b1bbda173d3f28382eb38ef56c1d5167a75afa64b",
+        "bytes":  6107911,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  165
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "0f64d0e42b71ea1437989d8d1e6162d4e18bacf486a105cd09d8259783290cd4",
+        "bytes":  5854050,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  156
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "289f8db416e9e1387922bf4064bfa4cd8ca470d6ba4b4389f39909f1bd47338e",
+        "bytes":  872225,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  201
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "6b061c1fd495cadb4e8d6a77142ec375a86c5aaa98473113627a97e027cf62aa",
+        "bytes":  1294505,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  312
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "2632f9f30276c32d54fbb716128958fb21772c63f9816fff456ee85b06c10d7e",
+        "bytes":  1387232,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_04_Pick_up_the_alphabet_soup_and_place_it_in_the_basket/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  4,
+        "instruction":  "Pick up the alphabet soup and place it in the basket",
+        "sha256":  "8fa380c8590a88f18896da243dd8c4c02deeffd96bc6ddfb4d8e2e6dfcc942bf",
+        "bytes":  6601838,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  176
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "25004de5c190952e0cc01ca22d2d51f2629c4454314d68847445d997c8714910",
+        "bytes":  820777,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  131
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "816b6ed209271bfe5b14c6bdb66aea7fba8a978605c6d5946d2c585019e547a1",
+        "bytes":  1183425,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  194
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "04bdac0b123855acf9958937e083262cd4043aeaa6565c9accd94b8ab306af14",
+        "bytes":  9388411,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "64a0b0883bfebb602fa0ba5566c4550d85ec8796642ad3bff95e9fbca43a9dd4",
+        "bytes":  4111655,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  174
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "ce6dd4c4687f7006da49b934d8cb0b48a21aaa1ac2f4ec59f30c173f247c73d9",
+        "bytes":  880713,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  142
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "e96379ab3f68b7bd210ee41bc69a5ce3a018e7d41ef823c2637efb33ae1e0505",
+        "bytes":  1947029,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "c743d94dfb9ddbdc41e66601e9b4bba24e76860dfc893df7aec4264324af694e",
+        "bytes":  5594514,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_05_Push_the_plate_to_the_front_of_the_stove/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  5,
+        "instruction":  "Push the plate to the front of the stove",
+        "sha256":  "b2bf4effe3b9d41cf347b842cf84aa76b982d8f07b1b1a8538b293ae5345ed45",
+        "bytes":  3957160,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  190
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "078c9cbb5120853df0551c61c3165b230d6522f4dc68efefd4c0d39987f6ce4b",
+        "bytes":  419681,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  95
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "8066ff256487f89f496420317e3fa31e5cb0024fdefdcfb51f99b497418002b0",
+        "bytes":  466390,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  101
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "43295efd909a11872a32787b308bc39cc7ead7a8144778042149f41a01ddaf96",
+        "bytes":  5587846,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "349008180fa6be8c60d61f387a54b93712f637267727e8c40c569c1bd47e81a9",
+        "bytes":  3999481,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  165
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "e00fb7ebb5a1f63d01578d7e0367506e187e32ad37fe4b7039e2fefbe4d3da61",
+        "bytes":  406040,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  93
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "5707cffef0ab73f1bfeb00b3759887423310b72bdfb9604c505dae5dc94a696e",
+        "bytes":  5899018,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "856fed9dc24cd535f893308fde545dd21340b5c6dea41ed32779eeff2e5b82e1",
+        "bytes":  7808297,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_06_Put_the_bowl_on_top_of_the_cabinet/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  6,
+        "instruction":  "Put the bowl on top of the cabinet",
+        "sha256":  "812dcf3ea157ab5c251c55bf2991110c7857e5dfd55c0faeb07f6079eb89e632",
+        "bytes":  1991444,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  91
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "6daeff716692e30d6ea00ae52047a07dc5ab78572d190454c78b22abe0dd383d",
+        "bytes":  1733509,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "516796159446215b83d8b934ca68eb2421dbfccc5f59d8e0dd17d0fa1aade861",
+        "bytes":  912732,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "7249fae1767276e47e377e3f2c7c956e621b2de96c8798a3096e77139afd671a",
+        "bytes":  10160073,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "6fe751ed2a42d175d4270d12642b2a158a24ae970f81cb34d167ad30b9177896",
+        "bytes":  8170627,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "21833211f23ec2597262d1109a87cf95b90edf1c5691b0441147b2fb6025297b",
+        "bytes":  2779483,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  112
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "a4f92ee34134640e9eb485df792fe11bf655b0d29194916f483a5f10a192c856",
+        "bytes":  1860919,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "eb4f9acca934cb4ddbf7f5d166289c5f225afa793667f2b2c87967d625f9d9b3",
+        "bytes":  3626401,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_07_Put_the_cream_cheese_in_the_bowl/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  7,
+        "instruction":  "Put the cream cheese in the bowl",
+        "sha256":  "2e6a8d2061a31d1724687c7326a632b0138d00299cb2681822e3eedda1adfca2",
+        "bytes":  8501391,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "65cfeeb7a9a6cd6ece9ff285b6d317e914c4efc87c232337c06eb7696687844b",
+        "bytes":  435597,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  117
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "042eaa097cf4091c4ad7dad153945293e9ca360e4373bcb6f9c1549d8b04e744",
+        "bytes":  1719653,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "755480007f8e7433917ea5dd93ec691cb8f50294dafa3281fd5c449474f3b830",
+        "bytes":  2041657,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "a0b0f21838470b2fd398b81e8415d0683eee6b9bacd0ace895442a98be8c192e",
+        "bytes":  1963191,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  103
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "29c454481aea83f196c452363d795a05e663c464ae297286083acbdaee1449d7",
+        "bytes":  3174830,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  149
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "be999f053c7de8ed63d243791dbf05d9cb504b53ec254fb66a5c6ddcdb4a6fa7",
+        "bytes":  1043349,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "90d6895a520ebbab0ed5fb1306bde3394acb2e6e18aa78e1ae7ce9954d982f9d",
+        "bytes":  9039926,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_08_Put_the_wine_bottle_on_top_of_the_cabinet/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  8,
+        "instruction":  "Put the wine bottle on top of the cabinet",
+        "sha256":  "7d2aaeeff2ca3630595b9e9d2733b36a25b088061569a81672c546ddb548acba",
+        "bytes":  3131315,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  120
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/minivla/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "FULL",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "69b5d66f5b89da81db234bbb1852d46f2e327e33de422a5d5866659529c62b72",
+        "bytes":  861870,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/minivla/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "LT",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "969ef3a0ee5a5a97f78b1adfa68c44fc82098b24ed77035c5e66bf9974a4ebae",
+        "bytes":  1256139,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/minivla/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "APA",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "d99ffa59323a56ee1e0ad221dc93adac5ea5110a1f3e8b59a83c8b4182fed464",
+        "bytes":  8699312,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/minivla/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "minivla",
+        "method":  "ECL",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "1ee935fb61ccaf686428cdf5a302bbc04f8bd62f5b088fe4bb4fbd8683e54b75",
+        "bytes":  4616091,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  179
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/pi0.5/full/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "FULL",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "ef9f59a72feb1ef4198786cc53ef2e11e4b816cf82a02143e13e21b7cd5aba15",
+        "bytes":  458912,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  141
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/pi0.5/lt/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "LT",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "3cb6505f0b8504d9efb46ffd773de1c15fd62e39ec2c391bb49c90d03a6d6d61",
+        "bytes":  8172648,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/pi0.5/apa/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "APA",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "10c61081caeaab792f3e98cef8f8dec1ed41ce0175f0db8ab92a6e953e409544",
+        "bytes":  9014126,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    },
+    {
+        "file":  "simulation/task_09_Put_the_wine_bottle_on_the_rack/pi0.5/ecl/demo.gif",
+        "platform":  "LIBERO-Core",
+        "backbone":  "pi0.5",
+        "method":  "ECL",
+        "task_id":  9,
+        "instruction":  "Put the wine bottle on the rack",
+        "sha256":  "e02d81253dea25d781ad9229899421883e35269c8df00a77530a9576349a6d20",
+        "bytes":  7846099,
+        "dimensions":  [
+                           224,
+                           224
+                       ],
+        "frames":  360
+    }
+]
