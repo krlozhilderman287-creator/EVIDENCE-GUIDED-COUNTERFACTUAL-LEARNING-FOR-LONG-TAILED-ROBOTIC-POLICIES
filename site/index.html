@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies.">
+  <title>ECL — Evidence-Guided Counterfactual Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="ECL home"><span>ECL</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#abstract">Abstract</a>
+      <a href="#simulation">Simulation</a>
+      <a href="#real-world">Real World</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <p class="eyebrow">PROJECT PAGE</p>
+      <h1>Evidence-Guided Counterfactual Learning<br><em>for Long-Tailed Robotic Policies</em></h1>
+      <div class="authors">Anonymous Authors</div>
+      <div class="hero-actions">
+        <a class="button primary" href="assets/ecl-paper.pdf">Paper</a>
+        <a class="button secondary" href="https://github.com/krlozhilderman287-creator/EVIDENCE-GUIDED-COUNTERFACTUAL-LEARNING-FOR-LONG-TAILED-ROBOTIC-POLICIES">Code</a>
+        <a class="button secondary" href="#simulation">Demos</a>
+      </div>
+
+      <div class="hero-metrics" aria-label="Key results">
+        <article class="metric-gain"><div class="metric-top"><span>SIMULATION</span><i>↗</i></div><strong>+29.9%</strong><p>MiniVLA macro-average improvement</p><small>40.8 → 53.0</small></article>
+        <article class="metric-gain"><div class="metric-top"><span>SIMULATION</span><i>↗</i></div><strong>+17.1%</strong><p>π<sub>0.5</sub> macro-average improvement</p><small>40.3 → 47.2</small></article>
+        <article class="metric-zero"><div class="metric-top"><span>DATA</span><i>0×</i></div><strong>Zero</strong><p>Additional data or region annotations</p><small>Original demonstrations only</small></article>
+        <article class="metric-zero"><div class="metric-top"><span>DEPLOYMENT</span><i>0×</i></div><strong>Zero</strong><p>Additional inference computation</p><small>Factual policy only</small></article>
+      </div>
+
+      <div class="teaser-montage" aria-label="ECL simulation and real-world demonstrations">
+        <img class="montage-media" src="assets/demos/minivla-task03-ecl.gif" alt="Simulation manipulation demo">
+        <img class="montage-media" src="assets/demos/pi05-task08-ecl.gif" alt="Simulation manipulation demo">
+        <video class="montage-media" autoplay muted loop playsinline preload="metadata" src="assets/demos/minivla-piper-task01-ecl.mp4" aria-label="PiPER manipulation demo"></video>
+        <video class="montage-media" autoplay muted loop playsinline preload="metadata" src="assets/demos/pi05-xarm-task05-ecl.mp4" aria-label="xArm6 manipulation demo"></video>
+        <img class="montage-media" src="assets/demos/minivla-task06-ecl.gif" alt="Simulation manipulation demo">
+        <video class="montage-media" autoplay muted loop playsinline preload="metadata" src="assets/demos/pi05-piper-task03-ecl.mp4" aria-label="PiPER manipulation demo"></video>
+        <video class="montage-media" autoplay muted loop playsinline preload="metadata" src="assets/demos/minivla-xarm-task03-ecl.mp4" aria-label="xArm6 manipulation demo"></video>
+        <img class="montage-media" src="assets/demos/pi05-task03-ecl.gif" alt="Simulation manipulation demo">
+        <video class="montage-media" autoplay muted loop playsinline preload="metadata" src="assets/demos/minivla-piper-task05-ecl.mp4" aria-label="PiPER manipulation demo"></video>
+        <video class="montage-media" autoplay muted loop playsinline preload="metadata" src="assets/demos/pi05-xarm-task02-ecl.mp4" aria-label="xArm6 manipulation demo"></video>
+        <img class="montage-media" src="assets/demos/minivla-task09-ecl.gif" alt="Simulation manipulation demo">
+        <img class="montage-media" src="assets/demos/pi05-task09-ecl.gif" alt="Simulation manipulation demo">
+        <div class="montage-title"><span class="montage-kicker">LONG-TAILED ROBOT LEARNING</span><b>ECL</b><strong>Evidence-Guided<br>Counterfactual Learning</strong><p>No extra processing · No annotations<br>No replacement · No deployment overhead</p><a href="#simulation">Explore demonstrations <span>↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="paper-section section-shell" id="abstract">
+      <div class="section-content">
+        <p class="eyebrow">OVERVIEW</p>
+        <h2>Why Tail Tasks Fail?</h2>
+        <div class="overview-layout">
+          <div class="abstract-copy">
+            <p>In the practical deployment of vision-language-action policies, handling long-tailed task distributions is a common challenge due to the highly imbalanced composition of robot demonstration datasets. To investigate this issue, we study the head-task action bias in shared robot policies, particularly focusing on its relationship with task-specific visual evidence. Our experimental analysis shows that, when the visual evidence required by a tail task is insufficient, the policy increasingly falls back on action patterns reinforced by data-rich head tasks, resulting in degraded performance on under-represented tasks. Motivated by this observation, we propose <strong>Evidence-Guided Counterfactual Learning</strong>, a training framework for long-tailed robot policies. Our method identifies decision-relevant visual evidence using instruction-related and action-related signals, and constructs counterfactual observations by removing the selected evidence. The resulting counterfactual predictions are used to strengthen the association among task instructions, visual evidence, and actions, with the supervision adaptively adjusted according to the number of demonstrations available for each task. The proposed framework requires neither additional training data nor region-level annotations and incurs no additional computation during deployment. Extensive experiments across simulated benchmarks, different VLA architectures, and real-world robot platforms demonstrate that our method robustly and consistently improves long-tailed robot policy learning, particularly for tail tasks, while maintaining reliable performance on head tasks.</p>
+          </div>
+
+          <aside class="bias-diagram" aria-label="Illustration of head-task action bias affecting a tail-task decision">
+            <div class="diagram-head"><strong>Head Action Bias</strong></div>
+            <div class="task-count-chart" aria-label="LIBERO-Core-LT demonstration counts for tasks zero through nine">
+              <div class="count-bars">
+                <div class="head-count"><b>46</b><i style="--count:100%"></i><span>T0</span></div>
+                <div class="head-count"><b>28</b><i style="--count:61%"></i><span>T1</span></div>
+                <div class="head-count"><b>19</b><i style="--count:41%"></i><span>T2</span></div>
+                <div><b>15</b><i style="--count:33%"></i><span>T3</span></div>
+                <div><b>11</b><i style="--count:24%"></i><span>T4</span></div>
+                <div><b>9</b><i style="--count:20%"></i><span>T5</span></div>
+                <div><b>8</b><i style="--count:17%"></i><span>T6</span></div>
+                <div><b>7</b><i style="--count:15%"></i><span>T7</span></div>
+                <div><b>6</b><i style="--count:13%"></i><span>T8</span></div>
+                <div><b>5</b><i style="--count:11%"></i><span>T9</span></div>
+              </div>
+              <div class="count-groups"><span>HEAD TASKS</span><span>TAIL TASKS</span></div>
+            </div>
+            <div class="weight-network" aria-hidden="true">
+              <div class="network-labels"><span>VISUAL</span><span>SHARED WEIGHTS</span><span>ACTION</span></div>
+              <svg viewBox="0 0 190 230" role="img" aria-label="Head-task prior dominates the internal weights used for a tail-task decision">
+                <defs>
+                  <filter id="nodeGlow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                  <marker id="greenArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#67dfb7"/></marker>
+                </defs>
+                <g class="base-weights">
+                  <path d="M20 48L72 36M20 48L72 86M20 112L72 86M20 112L72 136M20 176L72 136M20 176L72 186"/>
+                  <path d="M72 36L124 54M72 36L124 112M72 86L124 54M72 86L124 112M72 136L124 112M72 136L124 170M72 186L124 170"/>
+                  <path d="M124 54L174 82M124 112L174 82M124 112L174 154M124 170L174 154"/>
+                </g>
+                <path class="tail-weight-path" d="M20 176L72 136L124 170L174 154"/>
+                <path class="bias-weight-path" d="M20 48L72 36L124 54L174 82" marker-end="url(#greenArrow)"/>
+                <path class="bias-spill-path" d="M72 36C92 58 101 91 124 112C144 130 157 143 174 154" marker-end="url(#greenArrow)"/>
+                <g class="network-nodes">
+                  <circle cx="20" cy="48" r="8" class="head-node-svg"/><circle cx="20" cy="112" r="6"/><circle cx="20" cy="176" r="7" class="tail-node-svg"/>
+                  <circle cx="72" cy="36" r="9" class="hot-node"/><circle cx="72" cy="86" r="7"/><circle cx="72" cy="136" r="7"/><circle cx="72" cy="186" r="6"/>
+                  <circle cx="124" cy="54" r="9" class="hot-node"/><circle cx="124" cy="112" r="8" class="warm-node"/><circle cx="124" cy="170" r="6"/>
+                  <circle cx="174" cy="82" r="10" class="hot-node"/><circle cx="174" cy="154" r="7" class="warm-node"/>
+                </g>
+                <text x="7" y="28" class="svg-head-label">HEAD PRIOR</text>
+                <text x="6" y="202" class="svg-tail-label">TAIL EVIDENCE</text>
+                <text x="144" y="65" class="svg-output-label">DOMINANT</text>
+              </svg>
+              <div class="weight-legend"><span><i></i>Head-associated weight</span><span><i></i>Tail evidence</span></div>
+            </div>
+            <div class="weight-activation">
+              <span>INTERNAL WEIGHT ACTIVATION</span>
+              <div class="activation-cells" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="finding-card"><span>CORE FINDING</span><h3>Head-task action bias</h3><p>When task-specific visual grounding is insufficient, a shared policy increasingly falls back on action patterns reinforced by data-rich head tasks. ECL strengthens the association among instructions, visual evidence, and actions for underrepresented tasks.</p></div>
+
+        <div class="advantage-marquee" aria-label="Practical advantages">
+          <div class="advantage-track">
+            <div class="advantage-item"><i>01</i><strong>No extra data processing</strong><span>Uses the original demonstrations directly</span></div>
+            <div class="advantage-item"><i>02</i><strong>No manual labels</strong><span>No boxes, masks, or region annotations</span></div>
+            <div class="advantage-item"><i>03</i><strong>No object replacement</strong><span>Preserves the original task semantics</span></div>
+            <div class="advantage-item"><i>04</i><strong>No external pipeline</strong><span>No detector or image inpainting model</span></div>
+            <div class="advantage-item"><i>05</i><strong>No deployment overhead</strong><span>Uses only the factual policy at inference</span></div>
+            <div class="advantage-item" aria-hidden="true"><i>01</i><strong>No extra data processing</strong><span>Uses the original demonstrations directly</span></div>
+            <div class="advantage-item" aria-hidden="true"><i>02</i><strong>No manual labels</strong><span>No boxes, masks, or region annotations</span></div>
+            <div class="advantage-item" aria-hidden="true"><i>03</i><strong>No object replacement</strong><span>Preserves the original task semantics</span></div>
+            <div class="advantage-item" aria-hidden="true"><i>04</i><strong>No external pipeline</strong><span>No detector or image inpainting model</span></div>
+            <div class="advantage-item" aria-hidden="true"><i>05</i><strong>No deployment overhead</strong><span>Uses only the factual policy at inference</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-section section-shell" id="contributions">
+      <div class="section-content">
+        <p class="eyebrow">IMPROVEMENTS ACROSS HEAD AND TAIL TASKS</p>
+        <h2>Our Contributions<span class="title-mark" aria-hidden="true">!</span></h2>
+        <p class="contribution-statement"><span>Simple.</span> <span>Fundamental.</span> <span>Effective.</span></p>
+
+        <div class="performance-panel">
+          <div class="performance-head">
+            <div><span>LIBERO-CORE-LT · MINIVLA</span><h3>Per-task simulation success rate</h3><p>LT, APA, and ECL are grouped within each of the ten tasks.</p></div>
+          </div>
+          <div class="performance-legend" aria-label="Chart legend"><span class="legend-lt"><i></i>LT</span><span class="legend-apa"><i></i>APA</span><span class="legend-ecl"><i></i>ECL (Ours)</span></div>
+          <div class="performance-chart" data-performance-chart aria-label="Grouped bar chart of per-task success rates">
+            <div class="chart-y-axis" aria-hidden="true"><span style="--y:0%">100</span><span style="--y:20%">80</span><span style="--y:40%">60</span><span style="--y:60%">40</span><span style="--y:80%">20</span><span style="--y:100%">0</span></div>
+            <div class="performance-plot"><div class="performance-groups" data-performance-groups></div></div>
+          </div>
+          <p class="performance-axis-label">Success rate (%)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-section section-shell demo-module" id="simulation">
+      <div class="section-content">
+        <p class="eyebrow">LIBERO-CORE-LT</p>
+        <h2>Simulation demonstrations</h2>
+        <p class="section-lead">APA and ECL rollouts are shown side by side for all ten LIBERO-Core-LT tasks. Switch between MiniVLA and π<sub>0.5</sub> to inspect the complete task set.</p>
+        <div class="video-tabs" role="tablist" aria-label="Simulation model selection">
+          <button class="tab active" type="button" role="tab" aria-selected="true" data-tab="minivla">MiniVLA</button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-tab="pi05">π<sub>0.5</sub></button>
+        </div>
+        <div class="model-panel" data-panel="minivla"><div class="task-gallery" data-gallery="simulation-minivla"></div></div>
+        <div class="model-panel" data-panel="pi05" hidden><div class="task-gallery" data-gallery="simulation-pi05"></div></div>
+      </div>
+    </section>
+
+    <section class="paper-section section-shell" id="real-world">
+      <div class="section-content">
+        <p class="eyebrow">PIPER &amp; XARM6</p>
+        <h2>Real-world demonstrations</h2>
+        <p class="section-lead">APA and ECL rollouts are shown side by side for all six tasks on each robot platform. PiPER and xArm6 are presented separately, with independent model controls.</p>
+
+        <section class="robot-showcase demo-module">
+          <div class="robot-heading"><span>ROBOT 01</span><div><h3>AGILEX PiPER</h3><p>Third-person camera rollouts across all six tasks.</p></div></div>
+          <div class="video-tabs" role="tablist" aria-label="PiPER model selection"><button class="tab active" type="button" role="tab" aria-selected="true" data-tab="minivla">MiniVLA</button><button class="tab" type="button" role="tab" aria-selected="false" data-tab="pi05">π<sub>0.5</sub></button></div>
+          <div class="model-panel" data-panel="minivla"><div class="task-gallery" data-gallery="piper-minivla"></div></div>
+          <div class="model-panel" data-panel="pi05" hidden><div class="task-gallery" data-gallery="piper-pi05"></div></div>
+        </section>
+
+        <section class="robot-showcase demo-module">
+          <div class="robot-heading"><span>ROBOT 02</span><div><h3>xArm6</h3><p>External-camera rollouts across all six tasks.</p></div></div>
+          <div class="video-tabs" role="tablist" aria-label="xArm6 model selection"><button class="tab active" type="button" role="tab" aria-selected="true" data-tab="minivla">MiniVLA</button><button class="tab" type="button" role="tab" aria-selected="false" data-tab="pi05">π<sub>0.5</sub></button></div>
+          <div class="model-panel" data-panel="minivla"><div class="task-gallery" data-gallery="xarm-minivla"></div></div>
+          <div class="model-panel" data-panel="pi05" hidden><div class="task-gallery" data-gallery="xarm-pi05"></div></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>ECL Project Page</span><span>Evidence-Guided Counterfactual Learning</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
