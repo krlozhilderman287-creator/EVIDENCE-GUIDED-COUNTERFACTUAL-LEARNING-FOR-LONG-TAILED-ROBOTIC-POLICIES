@@ -2,6 +2,8 @@
 
 **ECL** trains a robot policy to use task-specific visual evidence under long-tailed demonstration distributions. This package contains the MiniVLA implementation, LIBERO-Core data preparation, training, factual-only evaluation, and simulation demos for the accompanying manuscript.
 
+[![Our Website](https://img.shields.io/badge/Our_Website-Visit-16836f?style=for-the-badge)](https://6aa8.q7m4x2p9.workers.dev/)
+
 [Method and protocol notes](docs/METHOD_AND_PROTOCOL.md) · [Demo guide](examples/README.md)
 
 The dataset construction and rollout implementation are based on [VLA-long-tail](https://github.com/MLDXY/VLA-long-tail). ECL uses **LIBERO-Core-LT directly**. This folder is self-contained with respect to source code; external datasets and pretrained weights are downloaded separately.
